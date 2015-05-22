@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>com.servlet.HandleLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>edit</servlet-name>
+    <servlet-class>com.servlet.Editdata</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>change</servlet-name>
+    <servlet-class>com.servlet.ChangeData</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listShow</servlet-name>
+    <servlet-class>com.servlet.listShow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listEdit</servlet-name>
+    <servlet-class>com.servlet.listEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listDel</servlet-name>
+    <servlet-class>com.servlet.listDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listAdd</servlet-name>
+    <servlet-class>com.servlet.listAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>managerEdit</servlet-name>
+    <servlet-class>com.servlet.managerEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gradeShow</servlet-name>
+    <servlet-class>com.servlet.gradeShow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gradeDel</servlet-name>
+    <servlet-class>com.servlet.gradeDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gradeAdd</servlet-name>
+    <servlet-class>com.servlet.gradeAdd</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  
+  
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/helpLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>edit</servlet-name>
+    <url-pattern>/helpEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>change</servlet-name>
+    <url-pattern>/helpChange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listShow</servlet-name>
+    <url-pattern>/listShow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listEdit</servlet-name>
+    <url-pattern>/listEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listDel</servlet-name>
+    <url-pattern>/listDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listAdd</servlet-name>
+    <url-pattern>/listAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>managerEdit</servlet-name>
+    <url-pattern>/managerEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gradeShow</servlet-name>
+    <url-pattern>/gradeShow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gradeDel</servlet-name>
+    <url-pattern>/gradeDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gradeAdd</servlet-name>
+    <url-pattern>/gradeAdd</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>MyJsp.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+ 
